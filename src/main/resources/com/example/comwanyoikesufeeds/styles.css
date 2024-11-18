@@ -1,0 +1,133 @@
+.optionBtn{
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-style: solid;
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-family: "Lobster Two",sans-serif;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+.optionBtn:hover{
+    -fx-background-color: grey;
+}
+.lblUsername,.lblPassword{
+    -fx-font-family: Oswald,sans-serif;
+}
+.txtFieldUsername,.txtFieldPassword{
+    -fx-font-family: "Open Sans",sans-serif;
+}
+.forgotPasswordBtn,.submitBtn{
+    -fx-font-family: "Open Sans",sans-serif;
+    -fx-background-color: transparent;
+    -fx-background-radius: 25px;
+    -fx-border-style:solid;
+    -fx-border-radius:25px;
+    -fx-text-fill: black;
+}
+.forgotPasswordBtn:hover,.submitBtn:hover,.optionBtn:hover,.commentSendBtn:hover,.topicAddBtn:hover{
+    -fx-cursor: hand;
+}
+.accountBorderPane{
+    -fx-border-style: solid;
+    -fx-border-radius:25px;
+    -fx-border-color: black;
+}
+.accountPane{
+    -fx-border-radius: 25px;
+    -fx-border-style: solid;
+    -fx-background-color: rgb(244, 244, 244);
+    -fx-background-radius: 25px;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+.txt1,.txt2,.txt3{
+    -fx-text-fill: black;
+}
+/*DashBoard*/
+.sidePane{
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-border-radius: 25px;
+    -fx-border-style: solid;
+}
+.sidePaneBtn{
+    -fx-background-color: transparent;
+}
+.forumBtn,.topicBtn,.accountBtn{
+    -fx-font-family: "Open Sans",sans-serif;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.forumBtn:hover,.sidePaneBtn:hover,.topicBtn:hover,.accountBtn:hover{
+    -fx-cursor: hand;
+}
+.topicPane,#topicPane{
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-border-radius: 25px;
+}
+.dashboardBackground{
+    -fx-background-color: #f4f4f4;
+}
+.dashboardHeader{
+    -fx-font-family: "Oswald",sans-serif;
+}
+.dashboardGreeting1{
+    -fx-font-family: "Lobster Two",sans-serif;
+}
+.dashboardGreeting2{
+    fx-font-family: "Open Sans",sans-serif;
+}
+/*Topic Page*/
+.headerPane{
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-border-radius: 15px;
+}
+.unitHeader,.unitLec{
+    -fx-font-family: "Asap Condensed", sans-serif;
+}
+.date{
+    -fx-font-family: "Lobster Two",sans-serif;
+}
+.topicAddBtn{
+    -fx-background-color: transparent;
+    -fx-font-family: "Open Sans",sans-serif;
+}
+.commentSection{
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-border-radius: 25px;
+}
+.commentSendBtn{
+    -fx-background-color: transparent;
+}
+.commentTextField{
+    -fx-border-radius: 20px;
+    -fx-background-color:transparent;
+    -fx-border-color: black;
+}
+
+/*Forgotten Password Page*/
+.inputField{
+    -fx-border-radius: 20px;
+    -fx-background-color:transparent;
+    -fx-border-color: black;
+    -fx-border-style:solid;
+}
+.userChatBox{
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-border-style: solid;
+}
+
+/*Unit Registration*/
+.registeredUnitPane {
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-border-radius: 15px;
+}
+.scrollPane{
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+}

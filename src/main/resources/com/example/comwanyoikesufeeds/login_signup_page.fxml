@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import com.gluonhq.charm.glisten.control.TextField?>-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.comwanyoikesufeeds.LoginSignupController">
+   <children>
+      <AnchorPane prefHeight="536.0" prefWidth="517.0">
+         <children>
+            <Line endX="100.0" endY="-32.0" layoutX="155.0" layoutY="132.0" startX="100.0" startY="370.0" />
+            <Pane fx:id="loginPane" layoutX="240.0" layoutY="77.0" opacity="0.0" prefHeight="361.0" prefWidth="278.0" stylesheets="@styles.css">
+               <children>
+                  <Text layoutX="110.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" textAlignment="CENTER" underline="true" wrappingWidth="61.2109375">
+                     <font>
+                        <Font name="Noteworthy Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Label layoutX="35.0" layoutY="130.0" styleClass="lblUsername" stylesheets="@styles.css" text="Adm No." />
+                  <Label layoutX="35.0" layoutY="181.0" styleClass="lblPassword" stylesheets="@styles.css" text="Password:" />
+                  <TextField fx:id="admissionFieldLogin" layoutX="84.0" layoutY="126.0" styleClass="txtFieldUsername" stylesheets="@styles.css" />
+                  <TextField fx:id="passwordFieldLogin" layoutX="84.0" layoutY="177.0" styleClass="txtFieldPassword" stylesheets="@styles.css" />
+                  <Button layoutX="101.0" layoutY="232.0" mnemonicParsing="false" onAction="#loginBtnClicked" prefHeight="38.0" prefWidth="90.0" styleClass="submitBtn" stylesheets="@styles.css" text="Log In" />
+                  <Button layoutX="150.0" layoutY="300.0" mnemonicParsing="false" onAction="#forgotPasswordBtnClicked" styleClass="forgotPasswordBtn" stylesheets="@styles.css" text="Forgot Password">
+                     <font>
+                        <Font name="Monaco" size="13.0" />
+                     </font>
+                  </Button>
+                  <Text fx:id="loginStatusText" layoutX="30.0" layoutY="323.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In Sucessful" underline="true" />
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="93.0" prefHeight="405.0" prefWidth="224.0" styleClass="accountPane" stylesheets="@styles.css">
+               <children>
+                  <Label layoutX="48.0" layoutY="39.0" prefHeight="28.0" prefWidth="105.0" styleClass="txt1" stylesheets="@styles.css" text="SU Feeds" textAlignment="CENTER" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Nova Square" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="textField" layoutX="16.0" layoutY="87.0" prefHeight="126.0" prefWidth="192.0" styleClass="txt3" stylesheets="@styles.css" text="Welcome to SU feeds an simplified application for managing your student life here at Strathmore University." wrapText="true">
+                     <font>
+                        <Font name="Lobster Two" size="19.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="optionBtn" layoutX="48.0" layoutY="241.0" mnemonicParsing="false" onAction="#optionBtnClicked" prefHeight="38.0" prefWidth="105.0" styleClass="optionBtn" stylesheets="@styles.css" text="Log In">
+                     <font>
+                        <Font name="Open Sans Regular" size="13.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="14.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="176664, Lawrence Muchiri" underline="true">
+                     <font>
+                        <Font name="Oregano" size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text layoutX="285.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fortune possess the brave - John Wick" underline="true">
+               <font>
+                  <Font name="Lobster Two" size="13.0" />
+               </font>
+            </Text>
+            <Pane fx:id="signUpPane" layoutX="245.0" layoutY="100.0" prefHeight="333.0" prefWidth="294.0">
+               <children>
+                  <Label layoutX="35.0" layoutY="98.0" styleClass="lblUsername" stylesheets="@styles.css" text="Name:" />
+                  <Label layoutX="36.0" layoutY="205.0" styleClass="lblPassword" stylesheets="@styles.css" text="Password:" />
+                  <TextField fx:id="admFieldSignup" layoutX="88.0" layoutY="168.0" prefHeight="28.0" prefWidth="144.0" styleClass="txtFieldUsername" stylesheets="@styles.css" />
+                  <TextField fx:id="nameField" layoutX="75.0" layoutY="95.0" styleClass="txtFieldPassword" stylesheets="@styles.css" />
+                  <Button fx:id="signUpBtn" layoutX="96.0" layoutY="248.0" mnemonicParsing="false" onAction="#signUpBtnClicked" prefHeight="38.0" prefWidth="90.0" styleClass="submitBtn" stylesheets="@styles.css" text="Sign Up" />
+                  <Label layoutX="36.0" layoutY="171.0" styleClass="lblUsername" stylesheets="@styles.css" text="Adm. No." />
+                  <Text layoutX="108.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up" underline="true" wrappingWidth="76.2109375">
+                     <font>
+                        <Font name="Noteworthy Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="pwdFieldSignup" layoutX="87.0" layoutY="202.0" styleClass="txtFieldUsername" stylesheets="@styles.css" />
+                  <TextField fx:id="emailField" layoutX="81.0" layoutY="133.0" styleClass="txtFieldPassword" stylesheets="@styles.css" />
+                  <Label layoutX="36.0" layoutY="136.0" styleClass="lblUsername" stylesheets="@styles.css" text="Email:" />
+                  <Text fx:id="signupStatusText" layoutX="128.0" layoutY="323.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+               </children>
+            </Pane>
+            <ImageView fitHeight="141.0" fitWidth="204.0" layoutX="155.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Media/University-Logo-Black-1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
