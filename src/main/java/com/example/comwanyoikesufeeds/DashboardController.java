@@ -47,6 +47,8 @@ public class DashboardController {
     @FXML
     private void accountBtnClicked(ActionEvent event) {
         pageOpener.pageOpener("/com/example/comwanyoikesufeeds/AccountPage.fxml");
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.close();
     }
     @FXML
     public void initialize(){
